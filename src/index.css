@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Classic iOS glossy sheen overlay */
+  .glossy-sheen {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.45) 0%,
+      rgba(255, 255, 255, 0.2) 48%,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
+  }
+
+  /* Deep glossy button */
+  .ios-gloss-button {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.35) 0%,
+      rgba(255, 255, 255, 0.05) 50%,
+      rgba(0, 0, 0, 0.15) 51%,
+      rgba(0, 0, 0, 0.25) 100%
+    );
+  }
+
+  /* Classic iOS 4 Slider Shimmer animation */
+  @keyframes shimmerSlide {
+    0% {
+      background-position: -200% 0;
+    }
+    100% {
+      background-position: 200% 0;
+    }
+  }
+
+  .shimmer-text {
+    background: linear-gradient(
+      90deg,
+      #71717a 0%,
+      #a1a1aa 25%,
+      #ffffff 50%,
+      #a1a1aa 75%,
+      #71717a 100%
+    );
+    background-size: 200% auto;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: shimmerSlide 3s linear infinite;
+  }
+
+  /* Classic iOS Linen Texture */
+  .ios-linen {
+    background-color: #2b2c31;
+    background-image: radial-gradient(#3a3b43 15%, transparent 16%),
+      radial-gradient(#3a3b43 15%, transparent 16%);
+    background-size: 8px 8px;
+    background-position: 0 0, 4px 4px;
+  }
+
+  /* Game Center Green Felt Texture */
+  .ios-felt {
+    background-color: #174d28;
+    background-image: radial-gradient(#1e5d32 20%, transparent 20%),
+      radial-gradient(#134222 20%, transparent 20%);
+    background-size: 6px 6px;
+    background-position: 0 0, 3px 3px;
+  }
+
+  /* Dojo Wood Floor */
+  .dojo-wood {
+    background: #452410;
+    background-image: repeating-linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.15) 0px,
+      rgba(0, 0, 0, 0.15) 2px,
+      transparent 2px,
+      transparent 38px
+    ),
+    linear-gradient(180deg, #5c3218 0%, #3a1d0d 100%);
+  }
+
+  /* Labyrinth Walnut Wood */
+  .walnut-board {
+    background: #6a4023;
+    background-image: 
+      radial-gradient(ellipse at 50% 50%, rgba(135, 87, 52, 0.6) 0%, rgba(55, 30, 14, 0.9) 100%),
+      repeating-linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.04) 0px,
+        rgba(0, 0, 0, 0.04) 2px,
+        transparent 2px,
+        transparent 14px
+      );
+  }
+
+  /* Doodle Jump Graph Paper */
+  .doodle-grid {
+    background-color: #fcfbf4;
+    background-image: linear-gradient(#e0ded2 1px, transparent 1px),
+      linear-gradient(90deg, #e0ded2 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
+
+/* Hide scrollbars for vintage applet feel */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}

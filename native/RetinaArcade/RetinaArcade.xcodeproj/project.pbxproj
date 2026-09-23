@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		28AD29F00D6E5363000E082D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00670F97 /* UIKit.framework */; };
+		28AD29F10D6E5363000E082D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C37FBAC04509CD000000102 /* Foundation.framework */; };
+		28AD29F20D6E5363000E082D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD29F30D6E5363000E082D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AD29EC0D6E52A7000E082D /* QuartzCore.framework */; };
+		28AD29F40D6E5363000E082D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AD29ED0D6E52A7000E082D /* CoreMotion.framework */; };
+		28AD29F50D6E5363000E082D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AD29EE0D6E52A7000E082D /* AudioToolbox.framework */; };
+		A1000001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1000002 /* AppDelegate.m */; };
+		A1000003 /* ArcadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1000004 /* ArcadeViewController.m */; };
+		A1000005 /* BladeFruitView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1000006 /* BladeFruitView.m */; };
+		A1000007 /* DoodleLeapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1000008 /* DoodleLeapView.m */; };
+		A1000009 /* LabyrinthView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1000010 /* LabyrinthView.m */; };
+		A1000011 /* SoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A1000012 /* SoundManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C37FBAC04509CD000000102 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D30AB110D05D00D00670F97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* RetinaArcade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetinaArcade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD29EC0D6E52A7000E082D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		28AD29ED0D6E52A7000E082D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		28AD29EE0D6E52A7000E082D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RetinaArcade-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RetinaArcade-Info.plist"; sourceTree = "<group>"; };
+		A1000002 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1000013 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1000004 /* ArcadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArcadeViewController.m; sourceTree = "<group>"; };
+		A1000014 /* ArcadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArcadeViewController.h; sourceTree = "<group>"; };
+		A1000006 /* BladeFruitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BladeFruitView.m; sourceTree = "<group>"; };
+		A1000015 /* BladeFruitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BladeFruitView.h; sourceTree = "<group>"; };
+		A1000008 /* DoodleLeapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoodleLeapView.m; sourceTree = "<group>"; };
+		A1000016 /* DoodleLeapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoodleLeapView.h; sourceTree = "<group>"; };
+		A1000010 /* LabyrinthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabyrinthView.m; sourceTree = "<group>"; };
+		A1000017 /* LabyrinthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabyrinthView.h; sourceTree = "<group>"; };
+		A1000012 /* SoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundManager.m; sourceTree = "<group>"; };
+		A1000018 /* SoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD29F00D6E5363000E082D /* UIKit.framework in Frameworks */,
+				28AD29F10D6E5363000E082D /* Foundation.framework in Frameworks */,
+				28AD29F20D6E5363000E082D /* CoreGraphics.framework in Frameworks */,
+				28AD29F30D6E5363000E082D /* QuartzCore.framework in Frameworks */,
+				28AD29F40D6E5363000E082D /* CoreMotion.framework in Frameworks */,
+				28AD29F50D6E5363000E082D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1000013 /* AppDelegate.h */,
+				A1000002 /* AppDelegate.m */,
+				A1000014 /* ArcadeViewController.h */,
+				A1000004 /* ArcadeViewController.m */,
+				A1000015 /* BladeFruitView.h */,
+				A1000006 /* BladeFruitView.m */,
+				A1000016 /* DoodleLeapView.h */,
+				A1000008 /* DoodleLeapView.m */,
+				A1000017 /* LabyrinthView.h */,
+				A1000010 /* LabyrinthView.m */,
+				A1000018 /* SoundManager.h */,
+				A1000012 /* SoundManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RetinaArcade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* RetinaArcade */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = RetinaArcade;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				8D1107310486CEB800E47090 /* RetinaArcade-Info.plist */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4700D08C38300B7A737 /* UIKit.framework */,
+				1C37FBAC04509CD000000102 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				28AD29EC0D6E52A7000E082D /* QuartzCore.framework */,
+				28AD29ED0D6E52A7000E082D /* CoreMotion.framework */,
+				28AD29EE0D6E52A7000E082D /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RetinaArcade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RetinaArcade" */;
+			buildPhases = (
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetinaArcade;
+			productName = RetinaArcade;
+			productReference = 1D6058910D05DD3D006BFB54 /* RetinaArcade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C01FCF4E08D95454005423E0 /* Build configuration list for PBXProject "RetinaArcade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* RetinaArcade */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RetinaArcade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				A1000001 /* AppDelegate.m in Sources */,
+				A1000003 /* ArcadeViewController.m in Sources */,
+				A1000005 /* BladeFruitView.m in Sources */,
+				A1000007 /* DoodleLeapView.m in Sources */,
+				A1000009 /* LabyrinthView.m in Sources */,
+				A1000011 /* SoundManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "RetinaArcade-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = RetinaArcade;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "RetinaArcade-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = RetinaArcade;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08D95454005423E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008D95454005423E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RetinaArcade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08D95454005423E0 /* Build configuration list for PBXProject "RetinaArcade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08D95454005423E0 /* Debug */,
+				C01FCF5008D95454005423E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

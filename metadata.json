@@ -1,0 +1,6 @@
+{
+  "name": "Retina Arcade 2010 - iPhone 4 Classics",
+  "description": "Authentic iOS 4 retro gaming experience built for iPhone 4 with Doodle Leap, Fruit Slash, and Labyrinth 3D Tilt Maze.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

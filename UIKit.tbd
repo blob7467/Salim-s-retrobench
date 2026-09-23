@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs: [ armv7 ]
+platform: ios
+install-name: /System/Library/Frameworks/UIKit.framework/UIKit
+current-version: 1.0
+compatibility-version: 1.0
+exports:
+  - archs: [ armv7 ]
+    symbols: [ _UIApplicationMain ]
+...

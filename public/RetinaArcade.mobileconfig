@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>FullScreen</key>
+			<true/>
+			<key>Icon</key>
+			<data>
+			</data>
+			<key>IsRemovable</key>
+			<true/>
+			<key>Label</key>
+			<string>Retina Arcade</string>
+			<key>PayloadDescription</key>
+			<string>Installs Retina Arcade Home Screen Web App on iPhone 4 iOS 6</string>
+			<key>PayloadDisplayName</key>
+			<string>Retina Arcade WebClip</string>
+			<key>PayloadIdentifier</key>
+			<string>com.retroarcade.iphone4.webclip</string>
+			<key>PayloadType</key>
+			<string>com.apple.webClip.managed</string>
+			<key>PayloadUUID</key>
+			<string>6F66EBA8-6236-4FCE-83E5-E74B09F35059</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Precomposed</key>
+			<true/>
+			<key>URL</key>
+			<string>https://ais-dev-g2zag3qz4qejkeegjcort4-5858184391.europe-west3.run.app</string>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Install Retina Arcade for iOS 6 / iPhone 4</string>
+	<key>PayloadDisplayName</key>
+	<string>Retina Arcade</string>
+	<key>PayloadIdentifier</key>
+	<string>com.retroarcade.iphone4</string>
+	<key>PayloadOrganization</key>
+	<string>Retina Arcade Studio</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A1B2C3D4-E5F6-7A8B-9C0D-1E2F3A4B5C6D</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

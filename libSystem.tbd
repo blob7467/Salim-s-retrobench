@@ -1,0 +1,10 @@
+--- !tapi-tbd-v2
+archs: [ armv7 ]
+platform: ios
+install-name: /usr/lib/libSystem.B.dylib
+current-version: 1.0
+compatibility-version: 1.0
+exports:
+  - archs: [ armv7 ]
+    symbols: [ dyld_stub_binder ]
+...
